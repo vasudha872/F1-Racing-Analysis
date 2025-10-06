@@ -55,18 +55,24 @@ cd f1-racing-analysis
 
 
 # Import database schema
+```bash
 mysql -u your_username -p < database/schema.sql
+```
 
 # Install Python dependencies
+```bash
 pip install -r requirements.txt
+```
 
+```bash
 # Run ETL pipeline
 python scripts/etl_pipeline.py
+```
 
 
 
 ### Project Overview
-
+```bash
 f1-racing-analysis/
 ├── database/
 │   ├── schema.sql           # Database schema definition
@@ -82,16 +88,17 @@ f1-racing-analysis/
 │   └── ER_diagram.png       # Entity-Relationship diagram
 ├── requirements.txt
 └── README.md
+```
 
 ### 👥 User Stories Supported
-For F1 Fans
+**For F1 Fans**
 
 View race results and podium finishes
 Track driver team history across seasons
 Access race schedules and circuit information
 Analyze pit stop strategies
 
-For Analysts
+**For Analysts**
 
 Compare driver lap times across races
 Analyze pit stop timing and tire strategies
@@ -99,7 +106,7 @@ Evaluate qualifying vs race performance
 Track weather impact on race outcomes
 Assess team performance on different circuit types
 
-⚡ Performance Optimizations
+**⚡ Performance Optimizations**
 
 Indexing Strategy: Clustered and non-clustered indexes on session_key, driver_number, meeting_key
 Query Optimization: Sub-second retrieval for complex multi-table joins
