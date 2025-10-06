@@ -75,10 +75,7 @@ python scripts/etl_pipeline.py
 ```bash
 f1-racing-analysis/
 ├── database/
-│   ├── schema.sql           # Database schema definition
-│   ├── views.sql            # View definitions
-│   ├── procedures.sql       # Stored procedures
-│   └── triggers.sql         # Trigger definitions
+│   ├── schema.sql           # Database schema definition     
 ├── scripts/
 │   ├── etl_pipeline.py      # Data ingestion pipeline
 │   └── data_validation.py   # Data quality checks
@@ -86,7 +83,6 @@ f1-racing-analysis/
 │   └── csv/                 # CSV data files
 ├── docs/
 │   └── ER_diagram.png       # Entity-Relationship diagram
-├── requirements.txt
 └── README.md
 ```
 
