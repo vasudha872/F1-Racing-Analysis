@@ -51,6 +51,7 @@ This project implements a fully normalized relational database to manage and ana
 # Clone repository
 git clone https://github.com/vasudha872/f1-racing-analysis.git
 cd f1-racing-analysis
+bash```
 
 # Import database schema
 mysql -u your_username -p < database/schema.sql
