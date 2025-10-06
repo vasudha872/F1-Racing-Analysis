@@ -76,9 +76,6 @@ python scripts/etl_pipeline.py
 f1-racing-analysis/
 ├── database/
 │   ├── schema.sql           # Database schema definition     
-├── scripts/
-│   ├── etl_pipeline.py      # Data ingestion pipeline
-│   └── data_validation.py   # Data quality checks
 ├── data/
 │   └── csv/                 # CSV data files
 ├── docs/
